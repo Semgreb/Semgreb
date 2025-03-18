@@ -1,0 +1,143 @@
+{
+    "section_contact": {
+        "title": "Instituto Dominicano de las Telecomunicaciones",
+        "app_logo_path": "/assets/images/logos/sello_footer_logo.svg",
+        "indotel_logo_path": "/assets/images/logos/indotel_logo.svg",
+        "presidence_logo_path": "/assets/images/logos/gob-logo.svg",
+        "address": "Av. Abraham Lincoln No. 962, Santo Domingo, República Dominicana",
+        "phone": "+1 (829) 732-5555",
+        "email": "correspondencia@indotel.gob.do"
+    },
+    "widgets": [
+        {
+            "title": "Portales",
+            "links": [
+                {
+                    "name": "INDOTEL",
+                    "url": "https://indotel.gob.do/"
+                },
+                {
+                    "name": "Ministerio de Industria y Comercio",
+                    "url": "https://micm.gob.do/"
+                },
+                {
+                    "name": "PROCONSUMIDOR",
+                    "url": "https://proconsumidor.gob.do/"
+                },
+                {
+                    "name": "INPOSDOM",
+                    "url": "https://inposdom.gob.do/"
+                },
+                {
+                    "name": "INDOCAL",
+                    "url": "https://indocal.gob.do/"
+                }
+            ]
+        },
+        {
+            "title": "Leyes",
+            "links": [
+                {
+                    "name": "Ley 310-14",
+                    "url": "https://indotel.gob.do/transparencia/documentos/leyes/"
+                },
+                {
+                    "name": "Ley 53-07",
+                    "url": "https://indotel.gob.do/transparencia/documentos/leyes/"
+                },
+                {
+                    "name": "Ley 172-13",
+                    "url": "https://www.sb.gob.do/regulacion/leyes/ley-no-172-13-proteccion-de-los-datos/"
+                },
+                {
+                    "name": "LEY 126-02",
+                    "url": "https://indotel.gob.do/firma-digital/marco-legal/leyes/"
+                },
+                {
+                    "name": "Ley 183-02",
+                    "url": "https://www.sb.gob.do/regulacion/compendio-de-leyes-y-reglamentos/ley-no-183-02-monetaria-y-financiera/"
+                },
+                {
+                    "name": "LEY 358-05",
+                    "url": "https://www.proconsumidor.gob.do/files/Ley_General_de_Proteccin_de_los_Derechos_del_Consumidor_o_Usuario_No__358-05.pdf"
+                },
+                {
+                    "name": "Ley de poder judicial 339-22 ",
+                    "url": "https://poderjudicial.gob.do/wp-content/uploads/2023/08/Ley-339-22-que-habilita-y-regula-el-uso-de-medios-digitales-para-los-procesos-judiciales-y-procedimientos-administrativos-Gaceta.pdf"
+                },
+                {
+                    "name": "Ley 153-98",
+                    "url": "https://ogtic.gob.do/wp-content/uploads/2019/02/Ley_153-98.pdf"
+                }
+            ]
+        },
+        {
+            "title": "Proyectos del INDOTEL",
+            "links": [
+                {
+                    "name": "VALIDA FIRMA",
+                    "url": "https://validafirma.indotel.gob.do/trail/"
+                },
+                {
+                    "name": "GSMA",
+                    "url": "https://indotel.gob.do/portal-gsma/"
+                },
+                {
+                    "name": "Buzón de sugerencias,denuncias y quejas para el servicio brindado por el Indotel",
+                    "url": "https://indotel.gob.do/buzon-de-sugerencias-y-quejas-para-el-servicio-brindado-por-el-indotel/"
+                },
+                {
+                    "name": "INDOTEL App",
+                    "url": "https://play.google.com/store/apps/details?id=com.indotel.indotel"
+                }
+            ]
+        },
+        {
+            "title": "De interés",
+            "links": [
+                {
+                    "name": "Agenda digital 2030 ",
+                    "url": "https://agendadigital.gob.do/wp-content/uploads/2022/01/Agenda-Digital-2030.pdf"
+                },
+                {
+                    "name": "Decreto: 685-22 ",
+                    "url": "https://cncs.gob.do/wp-content/uploads/2022/12/Decreto-685-22.pdf"
+                },
+                {
+                    "name": "Centro Nacional de Ciberseguridad ",
+                    "url": "https://cncs.gob.do/"
+                },
+                {
+                    "name": "LAC4",
+                    "url": "https://www.lac4.eu/"
+                },
+                {
+                    "name": "Decreto 313-22 ",
+                    "url": "https://presidencia.gob.do/decretos/313-22"
+                },
+                {
+                    "name": "UNCTAD",
+                    "url": "https://unctad.org/es"
+                },
+                {
+                    "name": "UNCITRAL",
+                    "url": "https://uncitral.un.org/es/about"
+                }
+            ]
+        }
+    ],
+    "copyright_links": [
+        {
+            "name": "Términos de uso",
+            "url": "https://indotel.gob.do/terminos-de-uso-y-su-aceptacion/"
+        },
+        {
+            "name": "Políticas de privacidad",
+            "url": "https://indotel.gob.do/politicas/"
+        },
+        {
+            "name": "Preguntas frecuentes",
+            "url": "/preguntas-frecuentes"
+        }
+    ]
+}

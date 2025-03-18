@@ -1,0 +1,97 @@
+{
+    "section_hero_banner": {
+        "label": "¡Certifica tu E-Commerce!",
+        "title": "Genera confianza y aumenta las ventas.",
+        "description": "El SELLO de CONFIANZA es la certificación que brinda el INDOTEL a las plataformas de comercio electrónico que cumplen las buenas prácticas para garantizar compras digitales de forma segura.",
+        "image_path": "/assets/images/banners/home_hero_banner.png",
+        "buttons": {
+            "first": {
+                "name": "¡Solicítalo ya!",
+                "url": "/sellos"
+            },
+            "second": {
+                "name": "Cómo funciona",
+                "url": "/sellos/landing"
+            }
+        }
+    },
+    "section_pos_hero_banner": [
+        {
+            "title": "Sellos de Confianza",
+            "description": "Explora y conoce a fondo como el Sello de Confianza puede ayudar en la reputación online de los comercios electrónicos",
+            "button": {
+                "name": "Explorar sellos",
+                "url": "/sellos"
+            }
+        },
+        {
+            "title": "Guía de buenas prácticas",
+            "description": "Conjuntos de recomendaciones y directrices diseñadas para mejorar la experiencia en las transacciones en línea. ",
+            "button": {
+                "name": "Conocer más",
+                "url": "/guias"
+            }
+        },
+        {
+            "title": "Preguntas frecuentes",
+            "description": "Información básica sobre la función y el significado de un sello de confianza del comercio electrónico.",
+            "button": {
+                "name": "Conocer más",
+                "url": "/preguntas-frecuentes"
+            }
+        }
+    ],
+    "section_blue": {
+        "title": "El SELLO aumenta la tasa de conversión.",
+        "description": "Eliminando la desconfianza de los usuarios al momento de hacer pagos con sus tarjetas de crédito.",
+        "application": {
+            "title": "Aplicar es fácil",
+            "steps": [
+                {
+                    "name": "Regístrate",
+                    "image_path": "/assets/images/temp/registron.png"
+                },
+                {
+                    "name": "Llena la solicitud",
+                    "image_path": "/assets/images/temp/request.png"
+                },
+                {
+                    "name": "Realiza el pago",
+                    "image_path": "/assets/images/temp/payment.png"
+                }
+            ],
+            "banner": {
+                "title": "Espera nuestra evaluación de buenas prácticas",
+                "description": "Realizamos una evaluación exhaustiva de las mejores prácticas en tu sitio web y te proporcionamos recomendaciones detalladas. Luego, te brindamos las insignias del SELLO de CONFIANZA para mostrar a tus clientes.",
+                "button": {
+                    "name": "Conoce como funciona",
+                    "url": "/sellos/landing"
+                }
+            }
+        }
+    },
+    "section_commerces": {
+        "title": "Comercios afiliados",
+        "description": "Plataformas de comercio electrónico",
+        "cta": {
+            "title": "Descubre todos nuestros comercios afiliados",
+            "button": {
+                "name": "Ver tods los comercios",
+                "url": "/comercios"
+            }
+        }
+    },
+    "section_footer_banner": {
+        "title": "Conoce nuestra guía de buenas prácticas",
+        "description": "Eliminando la desconfianza de los usuarios al momento de hacer pagos con sus tarjetas de crédito.",
+        "image_path": "/assets/images/banners/guias_practicas.jpg",
+        "bullets": [
+            "Buenas prácticas de seguridad",
+            "Buenas prácticas de experiencia de usuarios"
+        ],
+        "button": {
+            "name": "Explorar guías",
+            "url": "/guias"
+        }
+    }
+}

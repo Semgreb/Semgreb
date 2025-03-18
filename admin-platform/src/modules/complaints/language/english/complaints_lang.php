@@ -1,0 +1,64 @@
+<?php
+$lang['complaints_menu']           = 'Complaints';
+$lang['complaints_title'] = 'List Complaints';
+$lang['new_complaints'] = 'New Complaints';
+$lang['complaints_summary'] = 'Complaints Summary';
+$lang['clients_single_complaint_information_heading'] = 'New Complaint';
+$lang['complaint_create_no_contact']            = 'Complaint without contact';
+$lang['complaint_create_to_contact']            = 'Complaint to contact';
+
+$lang['support_complaints']                                     = 'Complaint';
+$lang['support_complaint']                                      = 'Complaint';
+$lang['complaint_settings_to']                                  = 'Name';
+$lang['complaint_settings_email']                               = 'Email address';
+$lang['complaint_settings_departments']                         = 'Department';
+$lang['complaint_settings_service']                             = 'Service';
+$lang['complaint_settings_priority']                            = 'Priority';
+$lang['complaint_settings_subject']                             = 'Subject';
+$lang['complaint_add_body']                                     = 'Complaint Body';
+$lang['complaint_settings_assign_to']                           = 'Assign complaint (default is current user)';
+$lang['complaint_settings_none_assigned']                       = 'None';
+$lang['clients_complaint_open_subject']               = 'Open Complaint';
+$lang['clients_complaints_open_subject']               = 'Create Complaint';
+$lang['open_complaint']                                   = 'Create Complaint';
+$lang['clients_complaint_open_body']                  = 'Complaint Body';
+$lang['customer_complaint_subject']          = 'Subject';
+$lang['clients_complaint_open_services']           = 'Service';
+$lang['client_invalid_consumer']           = 'Invalid consumer id';
+$lang['new_complaint_added_successfully']                       = 'Complaint #%s';
+$lang['acs_complaint_services_submenu']           = 'Complaints Services';
+$lang['complaints_service_edit']  = 'Edit Complaint Service';
+$lang['complaints_dt_consumer']  = 'Consumer';
+$lang['complaint_no_reply_yet']                                 = 'No Reply Yet';
+$lang['complaint_dt_last_reply']                                = 'Last Reply';
+$lang['complaint_dt_subject']                                = 'Subject';
+$lang['complaint_dt_status']                                = 'Status';
+$lang['complaint_dt__date_created']         = 'Created';
+$lang['complaint_dt_service']                             = 'Service';
+
+$lang['complaint_dt_priority']                             = 'Priority';
+$lang['complaint_not_found']                                   = 'Complaint not found';
+$lang['complaint_single_other_user_complaints']                                   = 'Other complaints';
+$lang['merge_complaint_ids_field_label']                     = 'Merge Complaint #';
+$lang['complaint_merged_complaints_header']                     = 'This complaint contains %s complaints that are merged';
+$lang['complaint_set_reminder_title']                                   = 'Set Complaint Reminder';
+$lang['complaint']                                   = 'Complaint';
+$lang['support_complaints']                                     = 'Complaints';
+
+$lang['complaint_status_db_2']                     = 'In Progress';
+$lang['complaint_status_db_1']                     = 'Open';
+$lang['complaint_status_db_3']                     = 'Answered';
+$lang['complaint_status_db_4']                     = 'On Hold';
+$lang['complaint_status_db_5']                     = 'Closed';
+$lang['complaints_email_template_menu']           = 'Email Template';
+$lang['complaint_lowercase']           = 'complaint';
+$lang['complaint_reply'] = 'Complaint Reply';
+$lang['view_primary_complaint']                              = 'View primary complaint';
+$lang['complaint_single_assign_to_me_on_update']                = 'Assign this complaint to me directly if something happens';
+$lang['complaint_add_response_and_back_to_list'] = 'Return to the list of complaints when a response has been submitted';
+$lang['complaint_settings_updated_successfully']                = 'Complaint settings updated successfully';
+$lang['complaint_settings_updated_successfully_and_reassigned'] = 'Complaint settings updated successfully - reassigned to department %s';
+$lang['complaint_merged_notice']                             = 'This complaint is merged into the complaint with ID';
+$lang['my_complaints_assigned']                      = 'Complaints assigned to me';
+
+$lang['home_weekend_complaint_opening_statistics']    = 'Weekly Complaint Openings Statistics';

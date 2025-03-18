@@ -1,0 +1,35 @@
+{
+    "logo_path": "/assets/images/logos/sello_logo.svg",
+    "nav_links": [
+        {
+            "name": "Inicio",
+            "url": "/"
+        },
+        {
+            "name": "Sellos",
+            "url": "/sellos"
+        },
+        {
+            "name": "Por qué usarlo",
+            "url": "/sellos/landing"
+        },
+        {
+            "name": "Comercios",
+            "url": "/comercios"
+        },
+        {
+            "name": "Guías",
+            "url": "/guias"
+        }
+    ],
+    "nav_auth_links": [
+        {
+            "name": "Acceder ",
+            "url": "https://app.sello.indotel.gob.do"
+        },
+        {
+            "name": "Solicitar",
+            "url": "/sellos"
+        }
+    ]
+}

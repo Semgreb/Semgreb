@@ -1,0 +1,55 @@
+{
+    "section_hero_banner": {
+        "title": "Preguntas Frecuente",
+        "description": "Estas preguntas frecuentes proporcionan información básica sobre la función y el significado de un sello de confianza del comercio electrónico."
+    },
+    "section_faq": {
+        "questions": [
+            {
+                "question": "¿Qué es el Sello de Confianza?",
+                "answer": "Es un distintivo utilizado para certificar las Buenas Prácticas para el Comercio Electrónico y su subsecuente inscripción en el correspondiente registro de comercio certificado y proporcionan a los usuarios una garantía visual de la autenticidad y protección de sus datos."
+            },
+            {
+                "question": "¿Para qué sirve el Sello de Confianza?",
+                "answer": "El sello de confianza funciona como una herramienta estratégica para destacar a las empresas en un mercado competitivo y construir una reputación sólida en el entorno digital."
+            },
+            {
+                "question": "¿En qué me beneficia el Sello de Confianza? ",
+                "answer": "El Sello de Confianza beneficia a los usuarios al proporcionarles una mayor confianza en la autenticidad y seguridad de la plataforma de comercio electrónico. Para los comercios, tener este sello puede aumentar la credibilidad de su negocio, generar confianza entre los clientes y, en última instancia, mejorar las conversiones y las ventas."
+            },
+            {
+                "question": "¿Caduca el Sello Confianza?",
+                "answer": "En general, los sellos de confianza pueden tener fechas de vencimiento. Por lo tanto, es importante revisar los términos y condiciones específicos de la certificación para determinar si el sello tiene una fecha de caducidad y cuáles son los requisitos para renovarlo."
+            },
+            {
+                "question": "¿Quiénes son considerados suscriptores de Sello de Confianza?",
+                "answer": "Los suscriptores del Sello de Confianza son aquellos comercios electrónicos o empresas que han pasado por el proceso de certificación y han demostrado cumplir con los estándares y prácticas establecidos para garantizar la confianza y seguridad de las transacciones en línea."
+            },
+            {
+                "question": "¿Cómo puedo solicitar el Sello de Confianza?",
+                "answer": "La solicitud del Sello de Confianza generalmente se realiza a través del INDOTEL. Esta entidad suele tener un proceso de certificación que los comercios electrónicos deben seguir para obtener el sello. Este proceso puede incluir la revisión de políticas de privacidad, seguridad de datos y otros criterios relevantes."
+            },
+            {
+                "question": "¿Es válido el Sello de Confianza Internacionalmente?",
+                "answer": "La validez internacional del Sello de Confianza dependerá de la entidad emisora y de los acuerdos o reconocimientos internacionales que tenga. Algunos sellos pueden tener reconocimiento global, mientras que otros pueden estar más centrados en regiones específicas."
+            },
+            {
+                "question": "¿Qué regula el Sello de Confianza??",
+                "answer": "El Sello de Confianza regula las Buenas Prácticas para el Comercio Electrónico. Esto puede incluir aspectos como la seguridad de la información, la privacidad de los usuarios, la transparencia en las transacciones y otros criterios que contribuyan a la confianza y seguridad en las operaciones en línea."
+            }
+        ]
+    },
+    "section_footer_banner": {
+        "title": "¡Qué esperas para afiliar tu negocio!",
+        "description": "¡Únete a la élite de los negocios en línea y conviértete en un referente de confianza para tus clientes!",
+        "image_path": "/assets/images/banners/afiliar_negocio.jpg",
+        "bullets": [
+            "Auditoría de buenas prácticas",
+            "Certificación y SELLO digital"
+        ],
+        "button": {
+            "name": "Afiliarme",
+            "url": "/sellos"
+        }
+    }
+}

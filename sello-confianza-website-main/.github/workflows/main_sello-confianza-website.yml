@@ -1,0 +1,75 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: sello-confianza-website-prod
+
+run-name: Build and deploy Node.js app to Azure Web App - sello-confianza
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update .env file
+        run: |
+          # Elimina las variables existentes si ya existen
+          sed -i '/^API_URL=/d' .env
+          sed -i '/^APP_NAME=/d' .env
+          sed -i '/^API_USER_NAME=/d' .env
+          sed -i '/^API_USER_PASSWORD=/d' .env
+          sed -i '/^SEAL_REQUEST_URL=/d' .env
+          sed -i '/^COMMERCE_REPORT_URL=/d' .env
+          sed -i '/^CLIENT_LOGIN_PAGE=/d' .env
+          
+          # Agrega las nuevas variables
+          echo -e "\n" >> .env
+          echo "API_URL=${{ vars.API_URL }}" >> .env
+          echo "APP_NAME=${{ vars.APP_NAME }}" >> .env
+          echo "HOST_NAME=${{ vars.HOST_NAME }}" >> .env
+          echo "API_USER_NAME=${{ secrets.API_USER_NAME }}" >> .env
+          echo "API_USER_PASSWORD=${{ secrets.API_USER_PASSWORD }}" >> .env
+          echo "SEAL_REQUEST_URL=${{ vars.SEAL_REQUEST_URL }}" >> .env
+          echo "COMMERCE_REPORT_URL=${{ vars.COMMERCE_REPORT_URL }}" >> .env
+          echo "CLIENT_LOGIN_PAGE=${{ vars.CLIENT_LOGIN_PAGE }}" >> .env          
+          echo "NODE_TLS_REJECT_UNAUTHORIZED=${{ vars.NODE_TLS_REJECT_UNAUTHORIZED }}" >> .env
+          cat .env
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Set up Node.js version
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+
+      - name: npm install, build, and test
+        run: |
+          git config --global url."git@github.com:".insteadOf git://github.com/
+          npm install
+          npm run build --if-present
+        #  npm run test --if-present
+
+      - name: 'Deploy to Azure Web App'
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'sello-confianza-website'
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_08775DB09AD44761B1239DA9A375BAF0 }}
+          package: .

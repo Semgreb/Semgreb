@@ -1,0 +1,42 @@
+{
+    "section_about": {
+        "before_title": "Sobre",
+        "vat_label": "RNC",
+        "inscription_date_label": "Fecha de inscripción",
+        "email_label": "Escribir",
+        "phone_label": "Llamar",
+        "address_label": "Visitar"
+    },
+    "section_report": {
+        "title": "¿Tienes una indidencia con este comercio?",
+        "button": {
+            "name": "Reportar",
+            "url": "#"
+        }
+    },
+    "section_certifications": {
+        "title": "Certificaciones obtenidas",
+        "description": "Certificaciones obtenidas",
+        "no_found": {
+            "title": "Este negocio aún no se ha certificado",
+            "description": "Este establecimiento todavía no ha obtenido la certificación"
+        }
+    },
+    "section_related_commerces": {
+        "title": "Comercios relacionados",
+        "bedore_description": "Conoce otros comercios relacionados a"
+    },
+    "section_footer_banner": {
+        "title": "¡Qué esperas para afiliar tu negocio!",
+        "description": "¡Únete a la élite de los negocios en línea y conviértete en un referente de confianza para tus clientes!",
+        "image_path": "/assets/images/banners/afiliar_negocio.jpg",
+        "bullets": [
+            "Auditoría de buenas prácticas",
+            "Certificación y SELLO digital"
+        ],
+        "button": {
+            "name": "Afiliarme",
+            "url": "/sellos"
+        }
+    }
+}

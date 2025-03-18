@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.article-content h1,
+.article-content h2,
+.article-content h3 {
+  margin: 0 0 0.35em;
+  font-weight: bold;
+}
+
+.article-content h1 {
+  font-size: 40px;
+}
+
+.article-content h2 {
+  font-size: 28px;
+}
+
+.article-content h3 {
+  font-size: 20px;
+}
+
+.article-content p {
+  margin: 0 0 1.15em;
+}
+
+.article-content blockquote {
+  background: linear-gradient(45deg, #f2f2f2, transparent);
+
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.article-content ul {
+  list-style: square;
+}
+
+.article-content ol {
+  list-style: auto;
+}
+
+.article-content ul,
+.article-content ol {
+  margin: 15px;
+  padding: 15px;
+}
+
+.article-content ul > li,
+.article-content ol > li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}

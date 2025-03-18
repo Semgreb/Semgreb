@@ -1,0 +1,21 @@
+{
+    "section_hero_banner": {
+        "title": "Explora nuestras guías",
+        "description": "Aspectos básicos del comercio en línea e incursione de manera efectiva en esta actividad que le agregará un valor considerable a la cadena de valor de la economía digital de nuestro país. "
+    },
+    "section_footer_banner": {
+        "title": "¡Qué esperas para afiliar tu negocio!",
+        "description": "¡Únete al sello de confianza y conviértete en un referente de confianza para tus clientes!",
+        "image_path": "/assets/images/banners/afiliar_negocio.jpg",
+        "bullets": [
+            "Regístrate con los datos de tu empresa",
+            "Verifica tu correo electrónico",
+            "Acceder a tu perfil",
+            "Solicita tu Sello."
+        ],
+        "button": {
+            "name": "¡Registrarme ya!",
+            "url": "/sellos"
+        }
+    }
+}

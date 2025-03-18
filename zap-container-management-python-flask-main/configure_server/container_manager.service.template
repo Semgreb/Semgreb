@@ -1,0 +1,12 @@
+[Unit]
+Description=Zap Container Manager
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/container-management-python-flask
+ExecStart=/usr/local/bin/gunicorn --chdir /home/ubuntu/container-management-python-flask/ -b 0.0.0.0:5000 -w 4 app:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

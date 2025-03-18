@@ -1,0 +1,24 @@
+{
+    "section_hero_banner": {
+        "title": "Comercios afiliados",
+        "description": "Miles de empresas brindan confianza a sus consumidores a través del SELLO DE CONFIANZA."
+    },
+    "section_commerces": {
+        "filters": {
+            "title": "Comercios afiliados"
+        }
+    },
+    "section_footer_banner": {
+        "title": "¡Qué esperas para afiliar tu negocio!",
+        "description": "¡Únete a la élite de los negocios en línea y conviértete en un referente de confianza para tus clientes!",
+        "image_path": "/assets/images/banners/afiliar_negocio.jpg",
+        "bullets": [
+            "Auditoría de buenas prácticas",
+            "Certificación y SELLO digital"
+        ],
+        "button": {
+            "name": "Afiliarme",
+            "url": "/sellos"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "section_hero_banner": {
+        "title": "Sellos de confianza",
+        "description": "El Sello proporciona confianza para los consumidores, indicando que la entidad ha sido evaluada y cumple con ciertos requisitos, lo que contribuye a generar credibilidad en la mente de los usuarios."
+    },
+    "section_footer_banner": {
+        "title": "Conoce nuestra guía de buenas prácticas",
+        "description": "Eliminando la desconfianza de los usuarios al momento de hacer pagos con sus tarjetas de crédito.",
+        "image_path": "/assets/images/banners/guias_practicas.jpg",
+        "bullets": [
+            "Buenas prácticas de seguridad",
+            "Buenas prácticas de experiencia de usuarios"
+        ],
+        "button": {
+            "name": "Explorar guías",
+            "url": "/guias"
+        }
+    }
+}

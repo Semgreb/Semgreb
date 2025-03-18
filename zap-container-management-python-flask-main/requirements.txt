@@ -1,0 +1,6 @@
+docker
+gunicorn
+flask
+python-dotenv
+python
+python3-flask

@@ -1,0 +1,35 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env
+venv/
+env/
+env2/
+*.venv/
+*.env/
+.venv/
+.venv3/
+.venv2/
+.venv37/
+.pyenv/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Local configuration file
+local_settings.py
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
